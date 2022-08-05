@@ -1,6 +1,6 @@
 
 $(window).scroll(function(){
-if(this.scrollY > 10){
+if(this.scrollY > 120){
     $('.logo').attr("src","Logo.png");
     $('.nav').addClass("sticky");
 }else{
